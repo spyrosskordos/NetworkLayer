@@ -1,13 +1,13 @@
 //
-//  File.swift
-//  
+//  Endpoint.swift
+//
 //
 //  Created by Sko on 26/9/23.
 //
 
 import Foundation
 
-protocol Endpoint {
+public protocol Endpoint {
     var scheme: String { get }
     var host: String { get }
     var path: String { get }
